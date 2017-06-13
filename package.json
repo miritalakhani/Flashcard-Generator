@@ -1,0 +1,28 @@
+{
+  "name": "Flashcard-Generator",
+  "version": "1.0.0",
+  "description": "Basic and Cloze-Deleted flashcard application",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "BasicCard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://miritalakhani.github.io/Flashcard-Generator/."
+  },
+  "keywords": [
+    "Flashcard",
+    "Generator",
+    "Constructor",
+    ],
+  "author": "Mirita Lakhani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miritalakhani/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/miritalakhani/Flashcard-Generator/blob/master/README.md",
+  "dependencies": {
+
+    "flashcard": "^0.0.2"    
+  }
+}
