@@ -1,0 +1,35 @@
+[
+ {"input":"Basic Card",
+ 	"front":"The state name - where most intelligent people stays?",
+	"back":"NJ"
+ },
+
+ {"input": "Basic Card",
+	"front":"The most attractive animal in the world?",
+	"back":"Lion"
+ },
+
+ {"input":"Basic Card",
+ 	"front":"Class Name - where we can find intelligent TA's",
+	"back":"RCB"
+ },
+
+ {"input":"The programming language which is very useful?",
+	"back": "JavaScript"
+ },
+
+ {"input":"Basic Card",
+ 	"front":"whichKindOfWrittingItIs?",
+	"back":"CamelCase"
+ },
+
+ {"input":"Basic Card",
+ 	"front":"best food we can find?",
+	"back":"Wholefood"
+ },
+
+ {"input":"Basic Card",
+ 	"front":"bulk food we can find?",
+	"back":"Costco"
+ }
+]
