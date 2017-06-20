@@ -4,7 +4,7 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 var BasicCard = require('./BasicCard.js');
-var clozeCard = require('./clozeCard.js');
+var ClozeCard = require('./ClozeCard.js');
 var flashcardType = process.argv[2];
 
 
@@ -35,7 +35,7 @@ inquirer.prompt(questions).then(function (answers) {
         break;
     case 'Cloz':
         console.log("You choose Cloze card");
-        var President = new ClozeCard("Mirita was the first president of the United States?", "mirita");
+        var President = new ClozeCard("Mirita was the first president of the United States?", "Mirita");
         reviewClozeCard(President);
         break;
     default:
@@ -75,7 +75,7 @@ function reviewClozeCard(card) {
 	  {
 	    type: 'input',
 	    name: card.text,
-	    message: card.text
+	    message: card.partial
 	  }
 	]
 
